@@ -4,7 +4,6 @@ const Controles = ({ playMusic, pauseMusic, nextSong, previousSong, downVolumen,
 
     return (
         <>
-
             <div id="botones">
                 <button id="random" onClick={randomSong}><i className="fas fa-random"></i></button>
                 <button id="repeat" onClick={repeatSong}><i className="fas fa-redo"></i></button>
